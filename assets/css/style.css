@@ -4,5 +4,62 @@ PROJECT: BROADWAY
 
 body {
   font-family: Helvetica;
-  
+  text-align: center;
+}
+
+header {
+  background: url('../img/the-flatiron-building.png') top center no-repeat;
+  background-size: cover;
+}
+
+header h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+.header-menu, .footer-menu {
+  font-size: 18px;
+  color: white;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-menu li {
+  padding: 0 0 10px 0;
+}
+
+ul.footer-menu, .footer-menu li {
+  display: inline-block;
+}
+
+a {
+  color: white;
+}
+
+h3 {
+   font-size: 32px;
+   font-weight: bold;
+ }
+
+ h5 {
+   font-size: 23px;
+   font-weight: bold;
+ }
+
+#designed {
+  color: white;
+  background: url('../img/the-flatiron-building.png') top center no-repeat;
+  background-size: cover;
+}
+
+footer {
+  background-color: dimgray;
+  text-align: left;
+}
+
+.copyright {
+  font-size: 11px;
+  color: white;
 }
